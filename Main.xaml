@@ -95,7 +95,7 @@
         <InArgument x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))">[new Dictionary(of String, List(Of String))]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,126" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[Cities]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,126" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;citiest : &quot; + Cities.ToString]" />
     <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build collection Cities US" FirstItem="New York" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[Cities(&quot;US&quot;)]">
       <uasc:BuildCollection.NextItems>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
